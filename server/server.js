@@ -18,7 +18,13 @@ const app = express();
 app.set('trust proxy', true);
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:3000', // For local development
+    'https://premier-monetization-portal.netlify.app' // For production client
+  ],
+  credentials: true
+}));
 app.use(express.json());
 
 // Routes
