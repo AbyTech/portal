@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules
+/client/node_modules
+
+# Build folder
+/client/build
+
+# Env files
+.env
+client/.env
+
+# Cache
+.cache
+client/.cache
