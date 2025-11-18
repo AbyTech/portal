@@ -1,10 +1,6 @@
-# TODO: Implement Balance Deduction on Withdrawal
+# TODO: Fix CORS for Custom Domain
 
 ## Tasks
-- [x] Fix field name inconsistencies in models and routes (btcBalance to btc_balance, userId to user_id)
-- [x] Update User.js model to use btc_balance
-- [x] Update Transaction.js model to use user_id
-- [x] Update user.js routes to use consistent field names
-- [x] Update auth.js routes to use btc_balance
-- [x] Update Withdraw.js component to make API call and refresh balance
-- [x] Test withdrawal functionality (skipped by user)
+- [x] Update CORS origins in server.js to include 'https://premiermonetizationportal.pro'
+- [ ] Redeploy backend on Render
+- [ ] Test login/signup from the custom domain

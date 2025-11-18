@@ -21,7 +21,8 @@ app.set('trust proxy', true);
 app.use(cors({
   origin: [
     'http://localhost:3000', // For local development
-    'https://premier-monetization-portal.netlify.app' // For production client
+    'https://premier-monetization-portal.netlify.app', // For production client
+    'https://premiermonetizationportal.pro' // For custom domain
   ],
   credentials: true
 }));
