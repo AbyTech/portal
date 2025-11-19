@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
 import toast from 'react-hot-toast';
+import logo from '../../assets/premier logo.png';
 
 const Signup = () => {
   const [formData, setFormData] = useState({ name: '', email: '', password: '', confirmPassword: '' });
@@ -39,7 +40,7 @@ const Signup = () => {
     <div className="min-h-screen bg-black flex items-center justify-center px-4">
       <div className="max-w-md w-full bg-card-dark rounded-lg p-8">
         <div className="text-center mb-8">
-          <h1 className="text-2xl font-bold text-white gradient-text">Premier Recovery & Monetization Portal</h1>
+          <img src={logo} alt="Premier Logo" className="mx-auto w-32 h-32" />
         </div>
         <h2 className="text-2xl font-bold text-white text-center mb-8">Sign Up</h2>
 

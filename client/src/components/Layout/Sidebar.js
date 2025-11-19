@@ -1,16 +1,17 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../contexts/AuthContext';
-import { 
-  Home, 
-  Wallet, 
-  MessageCircle, 
-  Download, 
-  Upload, 
-  History, 
+import {
+  Home,
+  Wallet,
+  MessageCircle,
+  Download,
+  Upload,
+  History,
   Users,
-  LogOut 
+  LogOut
 } from 'lucide-react';
+import logo from '../../assets/premier logo.png';
 
 const Sidebar = () => {
   const location = useLocation();
@@ -40,7 +41,7 @@ const Sidebar = () => {
     <div className="w-sidebar bg-sidebar-inactive min-h-screen flex flex-col fixed left-0 top-0">
       {/* Logo */}
       <div className="p-6">
-        <h1 className="text-2xl font-bold text-white gradient-text">Premier recovery and monetization portal</h1>
+        <img src={logo} alt="Premier Logo" className="w-20 h-20" />
       </div>
 
       {/* Navigation */}

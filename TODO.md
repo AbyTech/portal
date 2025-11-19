@@ -1,9 +1,7 @@
-# TODO: Fix CORS and SPA Routing Issues
+# TODO: Add Logo to Page Title, Login, Signup, and Sidebar
 
-## Tasks
-- [x] Update CORS origins in server.js to include 'https://premiermonetizationportal.pro'
-- [ ] Redeploy backend on Render
-- [ ] Test login/signup from the custom domain
-- [x] Add _redirects file for SPA routing on Netlify
-- [ ] Rebuild and redeploy frontend on Netlify
-- [ ] Test page refresh and navigation on custom domain
+- [x] Update crypto-wallet-app/client/public/index.html: Change browser title to "Premier Logo"
+- [x] Update crypto-wallet-app/client/src/components/Auth/Login.js: Import logo and replace h1 with img element
+- [x] Update crypto-wallet-app/client/src/components/Auth/Signup.js: Import logo and replace h1 with img element
+- [x] Update crypto-wallet-app/client/src/components/Layout/Sidebar.js: Import logo and replace h1 with img element
+- [x] Test the application to verify logo displays correctly
