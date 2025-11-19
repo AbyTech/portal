@@ -31,7 +31,7 @@ const Login = () => {
       <div className="max-w-md w-full bg-card-dark rounded-lg p-8">
         <div className="text-center mb-8">
           <img src={logo} alt="Premier Logo" className="mx-auto w-32 h-32" />
-          <h3>Premier Recovery and Monetization Portal</h3>
+          <h1 className="text-2xl font-bold text-white gradient-text">Premier Recovery and Monetization Portal</h1>
         </div>
         <h2 className="text-2xl font-bold text-white text-center mb-8">Login</h2>
 
