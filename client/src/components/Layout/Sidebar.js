@@ -42,6 +42,7 @@ const Sidebar = () => {
       {/* Logo */}
       <div className="p-6">
         <img src={logo} alt="Premier Logo" className="w-20 h-20" />
+        <h3>Premier Recovery and monetization portal</h3>
       </div>
 
       {/* Navigation */}
