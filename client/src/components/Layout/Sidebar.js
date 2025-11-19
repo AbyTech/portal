@@ -41,8 +41,10 @@ const Sidebar = () => {
     <div className="w-sidebar bg-sidebar-inactive min-h-screen flex flex-col fixed left-0 top-0">
       {/* Logo */}
       <div className="p-6">
-        <img src={logo} alt="Premier Logo" className="w-20 h-20" />
-        <h3>Premier Recovery and monetization portal</h3>
+        <img src={logo} alt="Premier Logo" className="w-20 h-20 mb-2" />
+        <h1 className="text-2xl font-bold text-white gradient-text">
+          Premier recovery and monetization portal
+        </h1>
       </div>
 
       {/* Navigation */}
